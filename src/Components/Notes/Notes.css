@@ -1,0 +1,28 @@
+.notes {
+    background-color: rgb(247, 242, 215);
+    padding: 20px;
+}
+
+.head {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.notes-card {
+    width: 100%;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.notes-card:hover {
+    background-color: rgb(222, 210, 144);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.notes-head {
+    font-weight: 600;
+}
