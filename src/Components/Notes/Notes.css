@@ -1,6 +1,7 @@
 .notes {
     background-color: rgb(247, 242, 215);
     padding: 20px;
+    width: 350px;
 }
 
 .head {
@@ -15,6 +16,7 @@
     background-color: white;
     border-radius: 10px;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .notes-card:hover {
@@ -24,5 +26,10 @@
 }
 
 .notes-head {
+    font-weight: 600;
+}
+
+.notes-warning {
+    font-size: 20px;
     font-weight: 600;
 }

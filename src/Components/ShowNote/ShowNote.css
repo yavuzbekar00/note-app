@@ -1,0 +1,49 @@
+.note-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-note-button {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: rgb(247, 242, 215);
+    border: none;
+    border-radius: 5px;
+}
+
+.add-note-button:hover {
+    transition: all .3s;
+    cursor: pointer;
+    background-color: rgb(222, 210, 144);
+}
+
+.delete-note-button {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: rgb(251, 198, 198);
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.delete-note-button:hover {
+    transition: all .3s;
+    cursor: pointer;
+    background-color: rgb(222, 125, 125);
+}
+
+.update-note-button {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: rgb(198, 251, 205);
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.update-note-button:hover {
+    transition: all .3s;
+    cursor: pointer;
+    background-color: rgb(98, 210, 132);
+}
